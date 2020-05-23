@@ -1,7 +1,10 @@
-package leetcode;
+package leetcode.array;
 
 /**
  * Created by LWL on 2019/5/16.
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ * 121. Best Time to Buy and Sell Stock
+ *
  */
 public class BestTimeBuyAndSell {
     public static void main(String[] args) {
