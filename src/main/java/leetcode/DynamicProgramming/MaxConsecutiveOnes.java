@@ -5,6 +5,7 @@ package leetcode.DynamicProgramming;
  *  485. Max Consecutive Ones
  *  Input: [1,1,0,1,1,1]
  *  Output: 3
+ *  代码面试指南 P397 子数组的最大累加和问题
  */
 public class MaxConsecutiveOnes {
 

@@ -1,4 +1,4 @@
-package leetcode.array;
+package leetcode.heap;
 
 
 import java.util.Comparator;
