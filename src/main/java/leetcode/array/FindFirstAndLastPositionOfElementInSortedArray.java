@@ -1,5 +1,7 @@
 package leetcode.array;
 
+import java.util.Arrays;
+
 /**
  *  https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
  *  34. Find First and Last Position of Element in Sorted Array
@@ -11,15 +13,16 @@ package leetcode.array;
 public class FindFirstAndLastPositionOfElementInSortedArray {
 
     public static void main(String[] args) {
-//        int[] nums = new int[]{5,7,7,8,8,10};
-//        int[] result = searchRange(nums, 6);
-        int[] nums = new int[]{2,2};
-        int[] result = searchRange(nums, 2);
+        int[] nums = new int[]{5,7,7,8,8,10};
+        int[] result = searchRange(nums, 6);
+//        int[] nums = new int[]{2,2};
+//        int[] result = searchRange(nums, 2);
 
         for(int i:result){
             System.out.print(i+" ");
         }
         System.out.println();
+        System.out.println(Arrays.toString(result));
     }
 
     public static int[] searchRange(int[] nums, int target) {
