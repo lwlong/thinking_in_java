@@ -11,10 +11,14 @@ package leetcode.DynamicProgramming;
 public class MaximumLengthOfRepeatedSubarray {
 
     public static void main(String[] args) {
-        System.out.println(findLength(new int[]{1,2,3,2,1}, new int[]{3,2,1,4,7}));
+        System.out.println(findLength(new int[]{1,2,3,2,1}, new int[]{3,2,1,4,7}));//3    3,2,1
     }
 
 
+    /**
+     * Runtime: 42 ms, faster than 79.83% of Java online submissions for Maximum Length of Repeated Subarray.
+     * Memory Usage: 48.5 MB, less than 56.16% of Java online submissions for Maximum Length of Repeated Subarray.
+     */
     public static int findLength(int[] A, int[] B) {
         int result = 0;
         int[][] dp = new int[A.length][B.length];
