@@ -1,10 +1,10 @@
-package leetcode.array;
+package leetcode.string;
 
 /**
  *  https://leetcode.com/problems/reverse-words-in-a-string-iii/
  *  557. Reverse Words in a String III
  */
-public class ReverseWordsinaStringIII {
+public class ReverseWordsInAStringIII {
 
 
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class ReverseWordsinaStringIII {
         System.out.println(s);
         String ss=reverseWords(s);
         System.out.println(ss.getClass().getName());
-        System.out.println(ss);
+        System.out.println(ss);//s'teL ekat edoCteeL tsetnoc
     }
 
     public static String reverseWords(String s) {
