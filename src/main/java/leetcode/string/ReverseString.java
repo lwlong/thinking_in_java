@@ -3,6 +3,7 @@ package leetcode.string;
 /**
  *  https://leetcode.com/problems/reverse-string/
  *  344. Reverse String
+ *  Easy
  */
 public class ReverseString {
     public static void main(String[] args) {
