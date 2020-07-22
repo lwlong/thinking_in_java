@@ -3,6 +3,8 @@ package leetcode.linkedlist;
 /**
  * https://leetcode.com/problems/merge-two-sorted-lists/
  * 21. Merge Two Sorted Lists
+ *
+ *   剑指offer P114 面试题17 合并两个排序的链表
  */
 public class MergeTwoSortedLists {
     public static class ListNode {

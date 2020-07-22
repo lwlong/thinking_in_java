@@ -1,8 +1,10 @@
 package leetcode.linkedlist;
 
 /**
- * https://leetcode.com/problems/remove-nth-node-from-end-of-list/
- * 19. Remove Nth Node From End of List
+ *  https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+ *  19. Remove Nth Node From End of List
+ *
+ *  剑指offer P107 面试题15 链表中倒数第k个节点
  */
 public class RemoveNthNodeFromEndOfList {
     public static class ListNode {

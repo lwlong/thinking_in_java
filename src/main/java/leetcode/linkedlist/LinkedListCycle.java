@@ -3,6 +3,15 @@ package leetcode.linkedlist;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ *  https://leetcode.com/problems/linked-list-cycle/
+ *  141. Linked List Cycle
+ *
+ *  代码面试指南 P69 两个单链表相交的一系列问题
+ *  判断是否链表是否有环
+ *  https://www.cnblogs.com/yorkyang/p/10876604.html
+ *
+ */
 public class LinkedListCycle {
     public static class ListNode {
         int val;
@@ -25,6 +34,32 @@ public class LinkedListCycle {
 
     }
 
+    /**
+     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Linked List Cycle.
+     * Memory Usage: 39.7 MB, less than 40.19% of Java online submissions for Linked List Cycle.
+     * 快指针，慢指针如果相遇就是有环
+     */
+    public static boolean hasCycleV1(ListNode head) {
+        if(head == null || head.next==null || head.next.next==null){
+            return false;
+        }
+        ListNode n1 = head.next; //slow
+        ListNode n2 = head.next.next; //fast
+        while(n1 != n2){
+            if(n2.next==null || n2.next.next==null){
+                return false;
+            }
+            n2 = n2.next.next;
+            n1 = n1.next;
+        }
+        return true;
+
+    }
+
+    /**
+     * Runtime: 8 ms, faster than 5.24% of Java online submissions for Linked List Cycle.
+     * Memory Usage: 43.2 MB, less than 5.02% of Java online submissions for Linked List Cycle.
+     */
     public static boolean hasCycle(ListNode head) {
         Set<ListNode> list = new HashSet();
         int n = 0;

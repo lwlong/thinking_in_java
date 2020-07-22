@@ -1,14 +1,21 @@
 package leetcode.linkedlist;
 
+import java.util.Stack;
+
 /**
- * https://leetcode.com/problems/add-two-numbers/
- * 2. Add Two Numbers
+ *  https://leetcode.com/problems/add-two-numbers/
+ *  2. Add Two Numbers
+ *
+ *  //代码面试指南 P66 两个单链表生成相加链表
+ *  Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+ *  Output: 7 -> 0 -> 8
+ *  Explanation: 342 + 465 = 807.
  */
 
 public class AddTwoNumbers {
     public static void main(String[] args) {
 
-//        Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+//        Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)  342+465=807
 //        Output: 7 -> 0 -> 8
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);
@@ -35,6 +42,10 @@ public class AddTwoNumbers {
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
+    /**
+     * Runtime: 1 ms, faster than 100.00% of Java online submissions for Add Two Numbers.
+     * Memory Usage: 40.2 MB, less than 6.37% of Java online submissions for Add Two Numbers.
+     */
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         ListNode result = null;
@@ -68,4 +79,5 @@ public class AddTwoNumbers {
         return result;
 //        return new ListNode();
     }
+
 }

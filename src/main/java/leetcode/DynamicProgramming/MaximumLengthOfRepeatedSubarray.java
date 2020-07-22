@@ -11,6 +11,7 @@ package leetcode.DynamicProgramming;
 public class MaximumLengthOfRepeatedSubarray {
 
     public static void main(String[] args) {
+        ThreadLocal<Integer> ss = new ThreadLocal<Integer>();
         System.out.println(findLength(new int[]{1,2,3,2,1}, new int[]{3,2,1,4,7}));//3    3,2,1
     }
 
