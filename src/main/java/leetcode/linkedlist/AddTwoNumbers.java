@@ -5,6 +5,7 @@ import java.util.Stack;
 /**
  *  https://leetcode.com/problems/add-two-numbers/
  *  2. Add Two Numbers
+ *  Medium
  *
  *  //代码面试指南 P66 两个单链表生成相加链表
  *  Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)

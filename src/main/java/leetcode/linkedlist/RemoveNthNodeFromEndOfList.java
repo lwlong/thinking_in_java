@@ -3,8 +3,10 @@ package leetcode.linkedlist;
 /**
  *  https://leetcode.com/problems/remove-nth-node-from-end-of-list/
  *  19. Remove Nth Node From End of List
+ *  Medium
  *
  *  剑指offer P107 面试题15 链表中倒数第k个节点
+ *  代码面试指南 P42 在单链表和双链表中删除倒数第k个节点
  */
 public class RemoveNthNodeFromEndOfList {
     public static class ListNode {
@@ -26,7 +28,8 @@ public class RemoveNthNodeFromEndOfList {
             System.out.print(cur.val+" ");
             cur = cur.next;
         }
-        cur = removeNthFromEnd(node,2);
+        System.out.println();
+        cur = removeNthFromEnd1(node,2);
         while(cur!=null){
             System.out.print(cur.val+" ");
             cur = cur.next;
@@ -34,6 +37,10 @@ public class RemoveNthNodeFromEndOfList {
 
     }
 
+    /**
+     * Runtime: 11 ms, faster than 5.20% of Java online submissions for Remove Nth Node From End of List.
+     * Memory Usage: 39.8 MB, less than 5.07% of Java online submissions for Remove Nth Node From End of List.
+     */
     public static ListNode removeNthFromEnd(ListNode head, int n) {
 
         int length = 0;
@@ -61,6 +68,39 @@ public class RemoveNthNodeFromEndOfList {
             n--;
         }
         pre.next = pre.next.next;
+        return head;
+    }
+
+    /**
+     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Remove Nth Node From End of List.
+     * Memory Usage: 39.6 MB, less than 5.07% of Java online submissions for Remove Nth Node From End of List.
+     *
+     * 链表长度为N，删除倒数第K个节点，倒数第K个节点的前一个节点就是第N-K个节点。
+     * 在第一遍遍历后，K的值变为K-N。
+     * 第二次遍历时，K的值不断加1，加到0就停止遍历，第二次遍历当然会听到第N-k个节点的位置。
+     */
+    public static ListNode removeNthFromEnd1(ListNode head, int n) {
+
+        if(head==null || n<1){
+            return head;
+        }
+        ListNode cur = head;
+        while(cur != null){
+            n--;
+            cur = cur.next;
+        }
+        if(n==0){
+            head = head.next;
+        }
+        if(n<0){
+            cur = head;
+            n++;
+            while(n!=0){
+                cur = cur.next;
+                n++;
+            }
+            cur.next = cur.next.next;
+        }
         return head;
     }
 }

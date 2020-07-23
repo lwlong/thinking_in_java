@@ -1,8 +1,11 @@
 package leetcode.linkedlist;
 
 /**
- * https://leetcode.com/problems/reverse-linked-list/
- * 206. Reverse Linked List
+ *  https://leetcode.com/problems/reverse-linked-list/
+ *  206. Reverse Linked List
+ *  Easy
+ *
+ *  代码面试指南 P47 反转单向和双向链表
  */
 public class ReverseLinkedList {
     public static class ListNode {

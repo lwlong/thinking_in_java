@@ -6,6 +6,7 @@ import java.util.Set;
 /**
  *  https://leetcode.com/problems/linked-list-cycle/
  *  141. Linked List Cycle
+ *  Easy
  *
  *  代码面试指南 P69 两个单链表相交的一系列问题
  *  判断是否链表是否有环

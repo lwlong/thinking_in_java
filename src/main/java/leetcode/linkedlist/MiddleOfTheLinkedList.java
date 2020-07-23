@@ -1,8 +1,11 @@
 package leetcode.linkedlist;
 
 /**
- * https://leetcode.com/problems/middle-of-the-linked-list/
- * 876. Middle of the Linked List
+ *  https://leetcode.com/problems/middle-of-the-linked-list/
+ *  876. Middle of the Linked List
+ *  Easy
+ *
+ *  代码面试指南 P45 删除链表的中间节点和a/b处的节点
  */
 public class MiddleOfTheLinkedList {
     public static class ListNode {

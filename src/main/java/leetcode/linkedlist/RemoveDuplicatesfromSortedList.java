@@ -6,6 +6,11 @@ import java.util.Set;
 /**
  *  https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  *  83. Remove Duplicates from Sorted List
+ *  Easy
+ *
+ *  代码面试指南 P77 删除无序单链表中值重复出现的节点
+ *  1。利用哈希表
+ *  2。类似选择排序，遍历每个节点，对于一个节点，往后检查所有相同值的节点，然后删除
  */
 public class RemoveDuplicatesfromSortedList {
 
