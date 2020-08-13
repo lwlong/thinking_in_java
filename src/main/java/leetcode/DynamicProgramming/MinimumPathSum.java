@@ -3,6 +3,8 @@ package leetcode.DynamicProgramming;
 /**
  *  https://leetcode.com/problems/minimum-path-sum/
  *  64. Minimum Path Sum
+ *  Medium
+ *
  *  动态规划 代码面试指南 P185 矩阵的最小路径和 两种方法 额外空间复杂度O(M*N) 压缩空间法
  */
 public class MinimumPathSum {

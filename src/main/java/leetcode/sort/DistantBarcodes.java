@@ -1,7 +1,14 @@
-package leetcode;
+package leetcode.sort;
 
 /**
- * Created by LWL on 2019/6/13.
+ * https://leetcode.com/problems/distant-barcodes/
+ * 1054. Distant Barcodes 距离相等的条形码
+ * Medium
+ *
+ * 在一个仓库里，有一排条形码，其中第 i 个条形码为 barcodes[i]。
+ * 请你重新排列这些条形码，使其中两个相邻的条形码 不能 相等。 你可以返回任何满足该要求的答案，此题保证存在答案
+ * Input: [1,1,1,1,2,2,3,3]
+ * Output: [1,3,1,3,2,1,2,1]
  */
 public class DistantBarcodes {
 

@@ -3,6 +3,8 @@ package leetcode.math;
 /**
  *  https://leetcode.com/problems/excel-sheet-column-title/
  *  168. Excel Sheet Column Title
+ *  Easy
+ *
  *  //代码面试指南 P491 伪26进制数
  *
  *  https://leetcode-cn.com/problems/excel-sheet-column-title/solution/jin-zhi-zhuan-huan-0ms-by-liveinhw/

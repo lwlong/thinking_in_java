@@ -3,6 +3,8 @@ package leetcode.DynamicProgramming;
 /**
  *  https://leetcode.com/problems/longest-increasing-subsequence/
  *  300. Longest Increasing Subsequence
+ *  Medium
+ *
  *  最长递增子序列 本题只返回长度 较为简单
  *  代码面试指南 P210 最长递增子序列 默认情况下O(n2)复杂度  O(nlogn)需要用到二分查找
  *  dp[i] 表示以arr[i]结尾情况下的最长递增子序列的长度

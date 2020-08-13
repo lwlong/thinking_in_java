@@ -5,8 +5,11 @@ import java.util.HashMap;
 /**
  *  https://leetcode.com/problems/lru-cache/
  *  146. LRU Cache
+ *  Medium
+ *
  *  //代码面试指南 P465
  *  https://blog.csdn.net/qq_41231926/article/details/86173740
+ *  双向链表保存LRU节点 新来的在后面
  *
  *  Runtime: 38 ms, faster than 15.08% of Java online submissions for LRU Cache.
  *  Memory Usage: 58.4 MB, less than 5.23% of Java online submissions for LRU Cache.

@@ -3,6 +3,9 @@ package leetcode.array;
 /**
  *  https://leetcode.com/problems/rotate-array/
  *  189. Rotate Array
+ *  Easy
+ *
+ *  代码面试指南 P267 翻转字符串 补充问题 翻转三次即可
  */
 public class RotateArray {
     public static void main(String[] args) {

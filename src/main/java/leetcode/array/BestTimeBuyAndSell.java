@@ -4,6 +4,11 @@ package leetcode.array;
  * Created by LWL on 2019/5/16.
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
  * 121. Best Time to Buy and Sell Stock
+ * Easy
+ *
+ * Input: [7,1,5,3,6,4]
+ * Output: 5
+ * Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
  *
  */
 public class BestTimeBuyAndSell {

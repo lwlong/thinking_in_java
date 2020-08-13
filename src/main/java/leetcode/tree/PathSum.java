@@ -2,7 +2,8 @@ package leetcode.tree;
 
 /**
  * https://leetcode.com/problems/path-sum/
- * 112. Path Sum
+ * 112. Path Sum 路经总和
+ * Easy
  */
 public class PathSum {
     public static class TreeNode {

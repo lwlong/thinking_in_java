@@ -5,8 +5,10 @@ import java.util.HashMap;
 /**
  *  https://leetcode.com/problems/insert-delete-getrandom-o1/
  *  380. Insert Delete GetRandom O(1)
+ *  Medium
+ *
  *  代码面试指南 P474
- *  insert,delete,gtRandom时间复杂度都是O(1)
+ *  insert,delete,gtRandom时间复杂度都是O(1) 利用HashMap
  */
 public class RandomizedSet {
     public static void main(String[] args) {

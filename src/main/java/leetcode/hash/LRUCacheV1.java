@@ -5,6 +5,8 @@ import java.util.HashMap;
 /**
  *  https://leetcode.com/problems/lru-cache/
  *  146. LRU Cache
+ *  Medium
+ *
  *  代码面试指南 P465
  *  //https://blog.csdn.net/qq_41231926/article/details/86173740
   *

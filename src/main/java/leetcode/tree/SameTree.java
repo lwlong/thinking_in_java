@@ -2,7 +2,11 @@ package leetcode.tree;
 
 /**
  * https://leetcode.com/problems/same-tree/
- * 100. Same Tree
+ * 100. Same Tree  相同的树
+ * Easy
+ *
+ * 利用前序遍历，然后比较字符串
+ *
  */
 public class SameTree {
     public static class TreeNode {

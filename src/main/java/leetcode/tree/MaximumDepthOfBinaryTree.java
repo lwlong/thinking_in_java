@@ -2,7 +2,8 @@ package leetcode.tree;
 
 /**
  * https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/
- * 104. Maximum Depth of Binary Tree
+ * 104. Maximum Depth of Binary Tree 最大深度
+ * Easy
  */
 public class MaximumDepthOfBinaryTree {
     public static class TreeNode {

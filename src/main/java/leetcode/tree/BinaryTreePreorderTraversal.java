@@ -6,7 +6,8 @@ import java.util.Stack;
 
 /**
  * https://leetcode.com/problems/binary-tree-preorder-traversal/
- * 144. Binary Tree Preorder Traversal
+ * 144. Binary Tree Preorder Traversal 前序遍历
+ * Medium
  */
 public class BinaryTreePreorderTraversal {
     public static class TreeNode {

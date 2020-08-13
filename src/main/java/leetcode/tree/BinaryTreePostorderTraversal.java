@@ -6,7 +6,8 @@ import java.util.Stack;
 
 /**
  * https://leetcode.com/problems/binary-tree-postorder-traversal/
- * 145. Binary Tree Postorder Traversal
+ * 145. Binary Tree Postorder Traversal 后序遍历
+ * Hard
  */
 public class BinaryTreePostorderTraversal {
     public static class TreeNode {

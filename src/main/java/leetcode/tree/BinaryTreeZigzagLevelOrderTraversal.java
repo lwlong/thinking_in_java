@@ -5,6 +5,9 @@ import java.util.*;
 /**
  *  https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
  *  103. Binary Tree Zigzag Level Order Traversal
+ *  Medium
+ *
+ *  ZigZag打印 需用一个queue记录，用一个stack暂存
  */
 public class BinaryTreeZigzagLevelOrderTraversal {
 

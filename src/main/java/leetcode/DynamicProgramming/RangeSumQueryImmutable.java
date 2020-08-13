@@ -3,8 +3,10 @@ package leetcode.DynamicProgramming;
 /**
  *
  *  https://leetcode.com/problems/range-sum-query-immutable/description/
- *  303. Range Sum Query - Immutable
+ *  303. Range Sum Query - Immutable 区域和检索 - 数组不可变
+ *  Easy
  *
+ *  给定一个整数数组  nums，求出数组从索引 i 到 j  (i ≤ j) 范围内元素的总和，包含 i,  j 两点。
  *  Given nums = [-2, 0, 3, -5, 2, -1]
  *  sumRange(0, 2) -> 1
  */

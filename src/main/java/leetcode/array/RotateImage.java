@@ -1,7 +1,15 @@
-package leetcode;
+package leetcode.array;
 
 /**
- * Created by LWL on 2019/9/26.
+ * https://leetcode.com/problems/rotate-image/
+ * 48. Rotate Image
+ * Medium
+ *
+ * 给定一个 n × n 的二维矩阵表示一个图像。将图像顺时针旋转 90 度。
+ *
+ * //先按正对角线转换
+ * //再按照中垂线转换
+ * 技巧题
  */
 public class RotateImage {
     public static void main(String[] args) {

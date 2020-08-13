@@ -3,6 +3,7 @@ package leetcode.DynamicProgramming;
 /**
  *  https://leetcode.com/problems/longest-common-subsequence/
  *  1143. Longest Common Subsequence
+ *  Medium
  *
  *  代码面试指南 P220 最长公共子序列问题
  *  注：子串就是需要连续，子序列不需要连续。

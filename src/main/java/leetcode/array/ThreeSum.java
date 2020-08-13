@@ -6,6 +6,7 @@ import java.util.*;
  * Created by Lwlong on 2019/4/12.
  * https://leetcode.com/problems/3sum
  * 15. 3Sum
+ * Medium
  */
 public class ThreeSum {
 

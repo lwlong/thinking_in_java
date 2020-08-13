@@ -3,6 +3,7 @@ package leetcode.DynamicProgramming;
 /**
  *  https://leetcode.com/problems/coin-change/
  *  322. Coin Change
+ *  Medium
  *  给定不同面额的硬币 coins 和一个总金额 amount。编写一个函数来计算可以凑成总金额所需的最少的硬币个数。
  *
  *  代码面试指南 P189 换钱的最少货币数 dp[i][amount] i代表arr中的位置，最终结果dp[0][amount]

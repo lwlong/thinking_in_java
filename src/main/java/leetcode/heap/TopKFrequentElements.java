@@ -5,6 +5,8 @@ import java.util.HashMap;
 /**
  *  https://leetcode.com/problems/top-k-frequent-elements/
  *  347. Top K Frequent Elements
+ *  Medium
+ *
  *  代码面试指南 P526
  *  出现次数的topK问题 HashMap 堆排
  */

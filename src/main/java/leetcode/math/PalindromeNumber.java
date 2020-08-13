@@ -5,7 +5,9 @@ import java.util.List;
 
 /**
  * https://leetcode.com/problems/palindrome-number/
- * 9. Palindrome Number
+ * 9. Palindrome Number 回文数
+ * Easy
+ *
  */
 public class PalindromeNumber {
     public static void main(String[] args) {

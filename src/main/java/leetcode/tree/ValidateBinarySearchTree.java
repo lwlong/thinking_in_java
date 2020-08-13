@@ -6,7 +6,8 @@ import java.util.List;
 /**
  * https://leetcode.com/problems/validate-binary-search-tree/
  * 98. Validate Binary Search Tree
- * Created by Lwlong on 2019/9/6.
+ * Medium
+ *
  */
 public class ValidateBinarySearchTree {
     public static class TreeNode {

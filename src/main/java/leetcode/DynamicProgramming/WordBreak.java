@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.DynamicProgramming;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,14 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * Created by LWL on 2019/5/28.
+ * https://leetcode.com/problems/word-break/
+ * 139. Word Break 单词拆分
+ * Medium
+ *
+ * Input: s = "applepenapple", wordDict = ["apple", "pen"]
+ * Output: true
+ *
+ * 其实应该是动态规划问题
  */
 public class WordBreak {
 

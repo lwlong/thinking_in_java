@@ -7,7 +7,8 @@ import java.util.Queue;
 
 /**
  *  https://leetcode.com/problems/invert-binary-tree/
- *  226. Invert Binary Tree
+ *  226. Invert Binary Tree 翻转二叉树
+ *  Easy
  */
 public class InvertBinaryTree {
     public static class TreeNode {

@@ -5,6 +5,7 @@ import java.util.Stack;
 /**
  *  https://leetcode.com/problems/min-stack/
  *  155. Min Stack
+ *  Easy
  *
  *  代码面试指南 P1 带getMin功能的栈
  */

@@ -3,6 +3,7 @@ package leetcode.DynamicProgramming;
 /**
  *  https://leetcode.com/problems/maximum-length-of-repeated-subarray/
  *  718. Maximum Length of Repeated Subarray
+ *  Medium
  *
  *  代码面试指南 P223 最长公共子串问题
  *  dp[i][j] 当以A的i和B的j为当作公共子串的最后一个字符情况下，公共子串最长能有多长

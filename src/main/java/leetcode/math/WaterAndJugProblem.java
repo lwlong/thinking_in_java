@@ -2,7 +2,9 @@ package leetcode.math;
 
 /**
  *  https://leetcode.com/problems/water-and-jug-problem/
- *  365. Water and Jug Problem
+ *  365. Water and Jug Problem 水壶问题
+ *  Medium
+ *
  *  能否用下x，y获得z升水： 如果z是两个水壶容量的最大公约数的倍数，且 z <= x+y，那么必然可以
  *  Input: x = 2, y = 6, z = 5
  *  Output: False

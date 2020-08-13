@@ -2,7 +2,8 @@ package leetcode.tree;
 
 /**
  * https://leetcode.com/problems/minimum-depth-of-binary-tree/
- * 111. Minimum Depth of Binary Tree
+ * 111. Minimum Depth of Binary Tree 最小深度
+ * Easy
  */
 public class MinimumDepthOfBinaryTree {
     public static class TreeNode {

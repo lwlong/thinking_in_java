@@ -5,6 +5,7 @@ import java.util.Stack;
 /**
  *  https://leetcode.com/problems/implement-queue-using-stacks/
  *  232. Implement Queue using Stacks
+ *  Easy
  *
  *  代码面试指南 P5 用栈实践队列
  */

@@ -6,7 +6,10 @@ import java.util.PriorityQueue;
 /**
  *  https://leetcode.com/problems/find-median-from-data-stream/
  *  295. Find Median from Data Stream
- *  代码面试指南 P516 随时找到数据流的中位数大根堆 小根堆
+ *  Hard
+ *
+ *  代码面试指南 P516 随时找到数据流的中位数
+ *  左大根堆 右小根堆
  */
 public class FindMedianFromDataStream {
     public static void main(String[] args) {

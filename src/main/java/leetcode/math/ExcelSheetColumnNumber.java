@@ -3,7 +3,9 @@ package leetcode.math;
 /**
  *  https://leetcode.com/problems/excel-sheet-column-number/
  *  171. Excel Sheet Column Number
- *  //代码面试指南 P491 伪26进制数
+ *  Easy
+ *
+ *  //代码面试指南 P491 伪26进制数 注意+1
  *  https://blog.csdn.net/u013554860/article/details/80922673
  */
 public class ExcelSheetColumnNumber {

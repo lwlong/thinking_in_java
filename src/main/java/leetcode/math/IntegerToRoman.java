@@ -1,7 +1,15 @@
-package leetcode;
+package leetcode.math;
 
 /**
- * Created by LWL on 2019/8/8.
+ * https://leetcode.com/problems/integer-to-roman/
+ * 12. Integer to Roman
+ *
+ * Input: 4
+ * Output: "IV"
+ *
+ * Input: 1994
+ * Output: "MCMXCIV"
+ * Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
  */
 public class IntegerToRoman {
 

@@ -6,6 +6,7 @@ import java.util.Arrays;
  *  https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
  *  34. Find First and Last Position of Element in Sorted Array
  *  Array，Binary Search
+ *  Medium
  *
  *  Input: nums = [5,7,7,8,8,10], target = 8
  *  Output: [3,4]

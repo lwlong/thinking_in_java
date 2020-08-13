@@ -1,7 +1,9 @@
-package leetcode;
+package leetcode.math;
 
 /**
- * Created by LWL on 2019/5/7.
+ * https://leetcode.com/problems/island-perimeter/
+ * 463. Island Perimeter 岛屿周长
+ *
  */
 public class IslandPerimeter {
 

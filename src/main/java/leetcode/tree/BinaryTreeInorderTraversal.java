@@ -6,7 +6,9 @@ import java.util.Stack;
 
 /**
  * https://leetcode.com/problems/binary-tree-inorder-traversal/
- * 94. Binary Tree Inorder Traversal
+ * 94. Binary Tree Inorder Traversal 中序遍历
+ * Medium
+ *
  */
 public class BinaryTreeInorderTraversal {
 

@@ -3,9 +3,11 @@ package leetcode.DynamicProgramming;
 /**
  *  https://leetcode.com/problems/max-consecutive-ones/description/
  *  485. Max Consecutive Ones
+ *  Easy
+ *
  *  Input: [1,1,0,1,1,1]
  *  Output: 3
- *  代码面试指南 P397 子数组的最大累加和问题
+ *  代码面试指南 P397 子数组的最大累加和问题 技巧题
  */
 public class MaxConsecutiveOnes {
 
